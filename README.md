@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In a quest to be a Qualified Coder I am embarking on a journey to take coding challenges on Codewars. 
 
 ### Problem 1
@@ -7,3 +8,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 # codewars
+=======
+# codewars
+In a quest to be a Qualified Coder I am embarking on a journey to take coding challenges on Codewars.
+>>>>>>> 303cda632531adbcce0f107288c1367604e5ccc2
