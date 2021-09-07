@@ -13,10 +13,8 @@ Notes
 Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!"""
 
 def duplicate_encoder(s):
-    for i in s:
-        # if len(s) > 1:
-        #     return len(s) * '('
-        if i.count(s) == 2:
-            return '()' #+ '(' * len(s)
+    for each in s:
+        if s.count(each) > 1 and len(s) > 1:
+            return '()' * len(each) + '(' * len(s)
         else:
             return '(' * len(s)
